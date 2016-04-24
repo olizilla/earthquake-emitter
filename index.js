@@ -15,7 +15,7 @@ Usage:
   quakes.on('earthquake', (q) => console.log(q.properties.title))
 ```
 
-Internally, I pole http://earthquake.usgs.gov for geojson data of quakes in
+Internally, I poll http://earthquake.usgs.gov for geojson data of quakes in
 the last 2.5 days. I store the quake ids from the last response, and compare it
 with the new response to figure out which quakes are new, and emit those ones.
 
