@@ -1,6 +1,6 @@
 {
   "name": "earthquake-emitter",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "I emit `earthquake` events with data about the location and magnitude.",
   "main": "index.js",
   "directories": {
